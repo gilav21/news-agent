@@ -23,7 +23,7 @@ This Streamlit application implements a sophisticated news processing pipeline u
 pip install -r requirements.txt
 ```
 
-3. Pull and Run Llama 3.2 using Ollama:
+2. Pull and Run Llama 3.2 using Ollama:
 
 ```bash
 # Pull the model
@@ -36,12 +36,12 @@ ollama list
 ollama run llama3.2
 ```
 
-4. Create a .env file with your configurations:
+3. Create a .env file with your configurations:
 ```bash
 OPENAI_BASE_URL=http://localhost:11434/v1
 OPENAI_API_KEY=fake-key 
 ```
-5. Run the Streamlit app
+4. Run the Streamlit app
 ```bash
 streamlit run news_agent.py
 ```
